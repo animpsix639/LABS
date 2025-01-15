@@ -7,7 +7,7 @@ int main()
     int* ptr = &a;
 
     cout << "Адрес указателя: " << ptr << endl;
-    cout << "Значение указателя: " << ptr << endl;
+    cout << "Значение указателя: " << *    ptr << endl;
 
     *ptr = 14;
 
